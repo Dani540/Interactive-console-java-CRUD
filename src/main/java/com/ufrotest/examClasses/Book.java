@@ -1,4 +1,4 @@
-package com.ufrotest.testClasses;
+package com.ufrotest.examClasses;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,5 @@
 package com.ufrotest.utils;
 
 public enum UserType {
-    ADMIN, USER
+    ADMIN, STUDENT, TEACHER, LIBRARIAN
 }

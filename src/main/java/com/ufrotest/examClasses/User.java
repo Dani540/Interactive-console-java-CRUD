@@ -1,4 +1,4 @@
-package com.ufrotest.testClasses;
+package com.ufrotest.examClasses;
 
 import com.ufrotest.utils.UserType;
 

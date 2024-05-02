@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="taller-2-pa:jar">
+    <output-path>$PROJECT_DIR$/../deploy</output-path>
+    <root id="root">
+      <element id="archive" name="taller-2-pa.jar">
+        <element id="module-output" name="taller-2-pa" />
+      </element>
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.10.1" />
+    </root>
+  </artifact>
+</component>
