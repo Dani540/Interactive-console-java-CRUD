@@ -1,37 +1,26 @@
 package com.ufrotest.gui.build;
 
-import lombok.AllArgsConstructor;
+import com.ufrotest.gui.util.InputUtil;
+import lombok.RequiredArgsConstructor;
 
 import java.util.Map;
-@AllArgsConstructor
+import java.util.Scanner;
+
+@RequiredArgsConstructor
 public abstract class MenuABS {
     protected final Map<Integer, OptionDTO> options;
-    protected int index = 0;
+    protected final InputUtil inputUtil;
 
     public abstract void select(int option);
     public abstract void exit();
 
     public void display(){
-        options.forEach((key, value) -> System.out.println(key + ". " + value.text()));
+        System.out.println("--------------------------------------------------------");
+        options.forEach((key, value) -> System.out.println("    "+key + ". " + value.text()));
+        System.out.println("--------------------------------------------------------");
     }
 
-    public void selectOption(int option){
-        if(options.containsKey(option)){
-            select(option);
-        }else{
-            System.out.println("Invalid option");
-        }
-    }
-
-    public void moveUp(){
-        if(index > 0){
-            index--;
-        }
-    }
-
-    public void moveDown(){
-        if(index < options.size() - 1){
-            index++;
-        }
+    public void selectOption(){
+        select(inputUtil.getInt());
     }
 }

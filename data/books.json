@@ -1,0 +1,83 @@
+{"id":0,"title":"Harry Potter and the Philosopher's Stone","author":"J.K. Rowling","category":"FANTASY","copies":10,"ratings":[5,4,4],"comments":["A classic in the fantasy genre!"]}
+{"id":1,"title":"1984","author":"George Orwell","category":"SCIENCE_FICTION","copies":8,"ratings":[4,4,4],"comments":["A dystopian masterpiece."]}
+{"id":2,"title":"The Da Vinci Code","author":"Dan Brown","category":"MYSTERY","copies":15,"ratings":[4,4,4],"comments":["Thrilling from start to finish."]}
+{"id":3,"title":"Pride and Prejudice","author":"Jane Austen","category":"ROMANCE","copies":12,"ratings":[4,4,4],"comments":["A timeless classic."]}
+{"id":4,"title":"The Girl with the Dragon Tattoo","author":"Stieg Larsson","category":"THRILLER","copies":10,"ratings":[4,4,4],"comments":["Keeps you on the edge of your seat."]}
+{"id":5,"title":"Steve Jobs","author":"Walter Isaacson","category":"BIOGRAPHY","copies":20,"ratings":[4,4,4],"comments":["Insightful and inspiring."]}
+{"id":6,"title":"A Brief History of Time","author":"Stephen Hawking","category":"SCIENCE","copies":18,"ratings":[4,4,4],"comments":["Mind-bending concepts explained with clarity."]}
+{"id":7,"title":"The Joy of Cooking","author":"Irma S. Rombauer","category":"COOKBOOK","copies":25,"ratings":[4,4,4],"comments":["A kitchen essential for every cook."]}
+{"id":8,"title":"The Power of Now","author":"Eckhart Tolle","category":"SELF_HELP","copies":10,"ratings":[4,4,4],"comments":["Life-changing insights."]}
+{"id":9,"title":"Eat, Pray, Love","author":"Elizabeth Gilbert","category":"TRAVEL","copies":12,"ratings":[4,4,4],"comments":["A journey of self-discovery."]}
+{"id":10,"title":"Where the Wild Things Are","author":"Maurice Sendak","category":"CHILDREN","copies":30,"ratings":[5,5,4],"comments":["A childhood favorite."]}
+{"id":11,"title":"The Bible","author":"Various","category":"RELIGION","copies":100,"ratings":[5,5,4],"comments":["A sacred text for millions."]}
+{"id":12,"title":"Moby-Dick","author":"Herman Melville","category":"CLASSIC","copies":15,"ratings":[4,4,4],"comments":["A masterpiece of American literature."]}
+{"id":13,"title":"The Art of War","author":"Sun Tzu","category":"MILITARY","copies":18,"ratings":[4,4,4],"comments":["Timeless wisdom on strategy."]}
+{"id":14,"title":"To Kill a Mockingbird","author":"Harper Lee","category":"FICTION","copies":20,"ratings":[5,5,4],"comments":["An American classic."]}
+{"id":15,"title":"The Catcher in the Rye","author":"J.D. Salinger","category":"FICTION","copies":22,"ratings":[4,4,4],"comments":["A coming-of-age novel."]}
+{"id":16,"title":"Lord of the Flies","author":"William Golding","category":"FICTION","copies":18,"ratings":[4,4,4],"comments":["A chilling exploration of human nature."]}
+{"id":17,"title":"The Great Gatsby","author":"F. Scott Fitzgerald","category":"FICTION","copies":25,"ratings":[5,5,4],"comments":["An iconic portrayal of the Jazz Age."]}
+{"id":18,"title":"The Hobbit","author":"J.R.R. Tolkien","category":"FANTASY","copies":20,"ratings":[5,5,4],"comments":["A delightful adventure."]}
+{"id":19,"title":"The Lord of the Rings","author":"J.R.R. Tolkien","category":"FANTASY","copies":30,"ratings":[5,5,4],"comments":["An epic fantasy trilogy."]}
+{"id":20,"title":"The Hitchhiker's Guide to the Galaxy","author":"Douglas Adams","category":"SCIENCE_FICTION","copies":25,"ratings":[4,4,4],"comments":["A hilarious journey through space."]}
+{"id":21,"title":"The Shining","author":"Stephen King","category":"HORROR","copies":15,"ratings":[4,4,4],"comments":["A terrifying descent into madness."]}
+{"id":22,"title":"Dracula","author":"Bram Stoker","category":"HORROR","copies":20,"ratings":[4,4,4],"comments":["The ultimate vampire classic."]}
+{"id":23,"title":"The Exorcist","author":"William Peter Blatty","category":"HORROR","copies":12,"ratings":[4,4,4],"comments":["A spine-chilling tale of possession."]}
+{"id":24,"title":"The Silence of the Lambs","author":"Thomas Harris","category":"THRILLER","copies":18,"ratings":[4,4,4],"comments":["A gripping psychological thriller."]}
+{"id":25,"title":"The Bourne Identity","author":"Robert Ludlum","category":"THRILLER","copies":20,"ratings":[4,4,4],"comments":["Action-packed from beginning to end."]}
+{"id":26,"title":"Jurassic Park","author":"Michael Crichton","category":"SCIENCE_FICTION","copies":22,"ratings":[4,4,4],"comments":["Dinosaurs come to life."]}
+{"id":27,"title":"The Hunger Games","author":"Suzanne Collins","category":"SCIENCE_FICTION","copies":25,"ratings":[4,4,4],"comments":["A thrilling dystopian adventure."]}
+{"id":28,"title":"Gone Girl","author":"Gillian Flynn","category":"THRILLER","copies":18,"ratings":[4,4,4],"comments":["Twists and turns abound."]}
+{"id":29,"title":"The Martian","author":"Andy Weir","category":"SCIENCE_FICTION","copies":20,"ratings":[4,4,4],"comments":["A gripping survival story on Mars."]}
+{"id":30,"title":"The Help","author":"Kathryn Stockett","category":"FICTION","copies":22,"ratings":[4,4,4],"comments":["A poignant tale of race and friendship."]}
+{"id":31,"title":"The Girl on the Train","author":"Paula Hawkins","category":"MYSTERY","copies":18,"ratings":[4,4,4],"comments":["A gripping psychological thriller."]}
+{"id":32,"title":"The Night Circus","author":"Erin Morgenstern","category":"FANTASY","copies":20,"ratings":[4,4,4],"comments":["Enchanting and atmospheric."]}
+{"id":33,"title":"The Alchemist","author":"Paulo Coelho","category":"FICTION","copies":25,"ratings":[5,5,4],"comments":["A fable about following your dreams."]}
+{"id":34,"title":"The Girl with the Pearl Earring","author":"Tracy Chevalier","category":"HISTORICAL_FICTION","copies":15,"ratings":[4,4,4],"comments":["A captivating historical novel."]}
+{"id":35,"title":"The Nightingale","author":"Kristin Hannah","category":"HISTORICAL_FICTION","copies":18,"ratings":[4,4,4],"comments":["A tale of love and resilience during WWII."]}
+{"id":36,"title":"The Goldfinch","author":"Donna Tartt","category":"FICTION","copies":20,"ratings":[4,4,4],"comments":["A sprawling coming-of-age story."]}
+{"id":37,"title":"Where'd You Go, Bernadette","author":"Maria Semple","category":"FICTION","copies":22,"ratings":[4,4,4],"comments":["A quirky and heartfelt novel."]}
+{"id":38,"title":"The Fault in Our Stars","author":"John Green","category":"YOUNG_ADULT","copies":25,"ratings":[4,4,4],"comments":["A poignant story about love and loss."]}
+{"id":39,"title":"The Curious Incident of the Dog in the Night-Time","author":"Mark Haddon","category":"FICTION","copies":18,"ratings":[4,4,4],"comments":["An insightful exploration of autism."]}
+{"id":40,"title":"Crazy Rich Asians","author":"Kevin Kwan","category":"FICTION","copies":20,"ratings":[4,4,4],"comments":["A hilarious glimpse into the lives of the rich and famous."]}
+{"id":41,"title":"Educated","author":"Tara Westover","category":"AUTOBIOGRAPHY","copies":22,"ratings":[4,4,4],"comments":["A powerful memoir of resilience and self-discovery."]}
+{"id":42,"title":"The Glass Castle","author":"Jeannette Walls","category":"MEMOIR","copies":18,"ratings":[4,4,4],"comments":["A compelling story of family and survival."]}
+{"id":43,"title":"Born a Crime","author":"Trevor Noah","category":"MEMOIR","copies":20,"ratings":[4,4,4],"comments":["Hilarious and heartfelt."]}
+{"id":44,"title":"Bossypants","author":"Tina Fey","category":"MEMOIR","copies":25,"ratings":[4,4,4],"comments":["Laugh-out-loud funny."]}
+{"id":45,"title":"Becoming","author":"Michelle Obama","category":"AUTOBIOGRAPHY","copies":30,"ratings":[4,4,4],"comments":["An inspiring journey from the South Side of"]}
+{"id":46,"title":"The Immortal Life of Henrietta Lacks","author":"Rebecca Skloot","category":"BIOGRAPHY","copies":15,"ratings":[4,4,4],"comments":["A fascinating exploration of medical ethics."]}
+{"id":47,"title":"Alexander Hamilton","author":"Ron Chernow","category":"BIOGRAPHY","copies":18,"ratings":[4,4,4],"comments":["The inspiration behind the hit musical."]}
+{"id":48,"title":"Leonardo da Vinci","author":"Walter Isaacson","category":"BIOGRAPHY","copies":20,"ratings":[4,4,4],"comments":["A comprehensive look at the life and work of the Renaissance genius."]}
+{"id":49,"title":"Eleanor Oliphant Is Completely Fine","author":"Gail Honeyman","category":"FICTION","copies":22,"ratings":[4,4,4],"comments":["Heartwarming and thought-provoking."]}
+{"id":50,"title":"Sapiens: A Brief History of Humankind","author":"Yuval Noah Harari","category":"HISTORY","copies":25,"ratings":[4,4,4],"comments":["A sweeping history of Homo sapiens."]}
+{"id":51,"title":"Homo Deus: A Brief History of Tomorrow","author":"Yuval Noah Harari","category":"HISTORY","copies":20,"ratings":[4,4,4],"comments":["An exploration of the future of humanity."]}
+{"id":52,"title":"Astrophysics for People in a Hurry","author":"Neil deGrasse Tyson","category":"SCIENCE","copies":18,"ratings":[4,4,4],"comments":["Making astrophysics accessible to everyone."]}
+{"id":53,"title":"The Body Keeps the Score","author":"Bessel van der Kolk","category":"PSYCHOLOGY","copies":15,"ratings":[4,4,4],"comments":["A groundbreaking book on trauma and healing."]}
+{"id":54,"title":"Quiet: The Power of Introverts in a World That Can't Stop Talking","author":"Susan Cain","category":"PSYCHOLOGY","copies":20,"ratings":[4,4,4],"comments":["Empowering introverts everywhere."]}
+{"id":55,"title":"Thinking, Fast and Slow","author":"Daniel Kahneman","category":"PSYCHOLOGY","copies":22,"ratings":[4,4,4],"comments":["A fascinating exploration of the mind."]}
+{"id":56,"title":"The Four Agreements","author":"Don Miguel Ruiz","category":"SELF_HELP","copies":25,"ratings":[4,4,4],"comments":["Simple yet profound wisdom."]}
+{"id":57,"title":"Atomic Habits","author":"James Clear","category":"SELF_HELP","copies":30,"ratings":[4,4,4],"comments":["A practical guide to building good habits."]}
+{"id":58,"title":"The Subtle Art of Not Giving a F*ck","author":"Mark Manson","category":"SELF_HELP","copies":35,"ratings":[4,4,4],"comments":["Refreshing and brutally honest."]}
+{"id":59,"title":"Wild","author":"Cheryl Strayed","category":"AUTOBIOGRAPHY","copies":18,"ratings":[4,4,4],"comments":["A journey of self-discovery on the Pacific Crest Trail."]}
+{"id":60,"title":"Into the Wild","author":"Jon Krakauer","category":"BIOGRAPHY","copies":20,"ratings":[4,4,4],"comments":["The tragic story of Chris McCandless."]}
+{"id":61,"title":"Travels with Charley","author":"John Steinbeck","category":"TRAVEL","copies":22,"ratings":[4,4,4],"comments":["A road trip across America with a poodle."]}
+{"id":62,"title":"In a Sunburned Country","author":"Bill Bryson","category":"TRAVEL","copies":25,"ratings":[4,4,4],"comments":["A hilarious journey through Australia."]}
+{"id":63,"title":"A Walk in the Woods","author":"Bill Bryson","category":"TRAVEL","copies":30,"ratings":[4,4,4],"comments":["Hiking the Appalachian Trail with humor and insight."]}
+{"id":64,"title":"The Omnivore's Dilemma","author":"Michael Pollan","category":"FOOD","copies":18,"ratings":[4,4,4],"comments":["Exploring the complexities of our food choices."]}
+{"id":65,"title":"Salt, Fat, Acid, Heat","author":"Samin Nosrat","category":"FOOD","copies":20,"ratings":[4,4,4],"comments":["The essentials of good cooking."]}
+{"id":66,"title":"How to Cook Everything","author":"Mark Bittman","category":"COOKBOOK","copies":22,"ratings":[4,4,4],"comments":["A comprehensive guide for the kitchen."]}
+{"id":67,"title":"The Pioneer Woman Cooks","author":"Ree Drummond","category":"COOKBOOK","copies":25,"ratings":[4,4,4],"comments":["Delicious recipes with a touch of humor."]}
+{"id":68,"title":"Brave New World","author":"Aldous Huxley","category":"SCIENCE_FICTION","copies":18,"ratings":[4,4,4],"comments":["A dystopian classic."]}
+{"id":69,"title":"Foundation","author":"Isaac Asimov","category":"SCIENCE_FICTION","copies":20,"ratings":[4,4,4],"comments":["The beginning of an epic saga."]}
+{"id":70,"title":"Neuromancer","author":"William Gibson","category":"SCIENCE_FICTION","copies":22,"ratings":[4,4,4],"comments":["A cyberpunk masterpiece."]}
+{"id":71,"title":"Do Androids Dream of Electric Sheep?","author":"Philip K. Dick","category":"SCIENCE_FICTION","copies":25,"ratings":[4,4,4],"comments":["The inspiration behind Blade Runner."]}
+{"id":72,"title":"The Road","author":"Cormac McCarthy","category":"FICTION","copies":18,"ratings":[4,4,4],"comments":["A post-apocalyptic journey of survival."]}
+{"id":73,"title":"The Handmaid's Tale","author":"Margaret Atwood","category":"FICTION","copies":20,"ratings":[4,4,4],"comments":["A chilling vision of a dystopian future."]}
+{"id":74,"title":"The Testaments","author":"Margaret Atwood","category":"FICTION","copies":22,"ratings":[4,4,4],"comments":["A sequel to The Handmaid's Tale."]}
+{"id":75,"title":"The Color Purple","author":"Alice Walker","category":"FICTION","copies":25,"ratings":[4,4,4],"comments":["A powerful story of resilience and sisterhood."]}
+{"id":76,"title":"Americanah","author":"Chimamanda Ngozi Adichie","category":"FICTION","copies":30,"ratings":[4,4,4],"comments":["An incisive exploration of race and identity."]}
+{"id":77,"title":"A Thousand Splendid Suns","author":"Khaled Hosseini","category":"FICTION","copies":18,"ratings":[4,4,4],"comments":["A heartbreaking tale of friendship and survival in Afghanistan."]}
+{"id":78,"title":"The Kite Runner","author":"Khaled Hosseini","category":"FICTION","copies":20,"ratings":[4,4,4],"comments":["A haunting story of redemption and forgiveness."]}
+{"id":79,"title":"Educated","author":"Tara Westover","category":"AUTOBIOGRAPHY","copies":22,"ratings":[4,4,4],"comments":["A powerful memoir of resilience and self-discovery."]}
+{"id":80,"title":"Born a Crime","author":"Trevor Noah","category":"MEMOIR","copies":25,"ratings":[4,4,4],"comments":["Hilarious and heartfelt."]}
+{"id":81,"title":"Bossypants","author":"Tina Fey","category":"MEMOIR","copies":30,"ratings":[4,4,4],"comments":["Laugh-out-loud funny."]}
+{"id":82,"title":"Becoming","author":"Michelle Obama","category":"AUTOBIOGRAPHY","copies":18,"ratings":[4,4,4],"comments":["An inspiring journey from the South Side of"]}
