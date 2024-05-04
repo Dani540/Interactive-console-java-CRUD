@@ -1,7 +1,7 @@
 package com.ufrotest.gui.data;
 
 import com.ufrotest.gui.build.MenuABS;
-import com.ufrotest.gui.util.EMenu;
+import com.ufrotest.constants.EMenu;
 import lombok.AllArgsConstructor;
 
 import java.util.HashMap;

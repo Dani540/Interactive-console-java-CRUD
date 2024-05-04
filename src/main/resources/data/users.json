@@ -1,1 +1,1 @@
-{"id":0,"username":"dani","password":"password","type":"ADMIN","loanHistory":[],"reservationHistory":[],"ratings":[]}
+{"id":0,"username":"dani","password":"12345678","type":"STUDENT","borrowedBooksHistory":[{"id":0,"title":"Book1","author":"Author1","category":"FANTASY","copies":10,"ratings":[5,4,3],"comments":["This is a comment"]},{"id":3,"title":"Book4","author":"Author4","category":"BIOGRAPHY","copies":15,"ratings":[5,5,3],"comments":["Comment"]}],"reservationHistory":[],"ratings":[]}

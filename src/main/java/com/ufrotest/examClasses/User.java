@@ -1,6 +1,6 @@
 package com.ufrotest.examClasses;
 
-import com.ufrotest.utils.UserType;
+import com.ufrotest.constants.UserType;
 
 import java.util.ArrayList;
 import java.util.List;
