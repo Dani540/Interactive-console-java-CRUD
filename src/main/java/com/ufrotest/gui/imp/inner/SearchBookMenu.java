@@ -13,7 +13,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SearchBookMenu extends MenuABS {
-    private final BookService bookService;
     private final FindBy findBy;
     public SearchBookMenu(BookService service, InputUtil inputUtil) {
         super(new HashMap<>(
@@ -26,8 +25,7 @@ public class SearchBookMenu extends MenuABS {
                         6, new OptionDTO("Back")
                 )
         ), inputUtil);
-        this.bookService = service;
-        findBy = new FindBy(bookService, new InputUtil());
+        findBy = new FindBy(service, new InputUtil());
     }
 
     @Override
