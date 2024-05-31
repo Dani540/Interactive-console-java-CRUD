@@ -22,6 +22,6 @@ public class BookAlreadyExists extends BookValidator {
     }
 
     private boolean byId(int id){
-        return !bookRepo.findAll().isEmpty() && bookRepo.findAll().contains(bookRepo.findById(id));
+        return !bookRepo.findAll().isEmpty() && bookRepo.findAll().stream().anyMatch(book -> book.id() == id);
     }
 }

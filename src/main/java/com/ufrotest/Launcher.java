@@ -4,6 +4,7 @@ import com.ufrotest.constants.EMenu;
 import com.ufrotest.core.repositories.BookRepo;
 import com.ufrotest.core.repositories.UserRepo;
 import com.ufrotest.core.services.exceptions.validator.imp.book.build.BookValidationChain;
+import com.ufrotest.core.services.exceptions.validator.imp.book.imp.BookAlreadyExists;
 import com.ufrotest.core.services.exceptions.validator.imp.user.build.UserValidationChain;
 import com.ufrotest.core.services.imp.BookService;
 import com.ufrotest.core.services.imp.UserService;

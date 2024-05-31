@@ -11,6 +11,7 @@ import com.ufrotest.gui.util.InputUtil;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class SearchBookMenu extends MenuABS {
     private final FindBy findBy;

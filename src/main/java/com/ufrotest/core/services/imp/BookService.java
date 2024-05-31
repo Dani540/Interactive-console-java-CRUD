@@ -5,7 +5,9 @@ import com.ufrotest.core.services.exceptions.validator.imp.book.build.BookValida
 import com.ufrotest.core.model.BookDTO;
 import com.ufrotest.core.repositories.BookRepo;
 import com.ufrotest.constants.Categories;
+import com.ufrotest.core.services.exceptions.validator.imp.book.imp.BookAlreadyExists;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +17,13 @@ public class BookService {
     private final BookRepo bookRepo;
     private final BookValidationChain validator;
     public void saveBook(BookDTO book) throws BookValidationException {
-//        new BookAlreadyExists(bookRepo).validate(book);
-//        validator.validate(book);
-        bookRepo.save(book);
+        try{
+            if (bookRepo.findById(book.id()) != null) throw new BookValidationException("Book Already Exists");
+            validator.validate(book);
+            bookRepo.save(book);
+        }catch (NullPointerException e){
+            System.out.println("El libro no existe pero dada la comprobacion el programa perkin se cae");
+        }
     }
 
     public BookDTO findById(int id) throws BookValidationException {

@@ -1,72 +1,75 @@
 package com.ufrotest.gui.util;
 
-import java.io.IOException;
+import com.ufrotest.gui.util.imp.ResultInputStrategies;
+import com.ufrotest.gui.util.out.ResultInput;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+@Getter
+@AllArgsConstructor
 public class InputUtil {
-    private final Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
+    public InputUtil() {
+        this.scanner = new Scanner(System.in);
+    }
+
     public String getString() {
         String input = scanner.nextLine();
-        while (!isString(input)) {
+        ResultInput<String> result = ResultInputStrategies.isString(input);
+        while ( !result.isSuccess() ) {
             System.out.println("Invalid input, please enter a valid string");
             input = scanner.nextLine();
+            result = ResultInputStrategies.isString(input);
         }
-        return input;
+        return result.getValue();
     }
 
     public int getInt() {
-        int input = 0;
+        String input = scanner.nextLine();
+        ResultInput<Integer> result = ResultInputStrategies.isValidInteger(input);
         try {
-            input = scanner.nextInt();
-            while (!isNumber(input)) {
+            while ( !result.isSuccess() ) {
                 System.out.println("Invalid input, please enter a valid number");
-                input = scanner.nextInt();
+                input = scanner.nextLine();
+                result = ResultInputStrategies.isValidInteger(input);
             }
         } catch (InputMismatchException | NumberFormatException e) {
             System.out.println("Invalid input, please enter a valid number");
         }
-        scanner.nextLine();
-        return input;
+        return result.getValue();
     }
 
     public double getDouble() {
-        double input = scanner.nextDouble();
+        String input = scanner.next();
+        ResultInput<Double> result = ResultInputStrategies.isDouble(input);
         try{
-            while (!isDouble(input)) {
+            while ( !result.isSuccess() ) {
                 System.out.println("Invalid input, please enter a valid number");
-                input = scanner.nextDouble();
+                input = scanner.next();
+                result = ResultInputStrategies.isDouble(input);
             }
         }catch (InputMismatchException | NumberFormatException e) {
             System.out.println("Invalid input, please enter a valid number");
-            scanner.nextLine();
-            return getDouble();
         }
-        return input;
+        return result.getValue();
     }
 
     public boolean getBoolean() {
         String input = scanner.nextLine();
-        while (!input.equalsIgnoreCase("true") && !input.equalsIgnoreCase("false")) {
+        ResultInput<Boolean> result = ResultInputStrategies.isBoolean(input);
+        while ( !result.isSuccess() ) {
             System.out.println("Invalid input, please enter a valid boolean");
             input = scanner.nextLine();
+            result = ResultInputStrategies.isBoolean(input);
         }
-        return Boolean.parseBoolean(input);
-    }
-
-    public static boolean isNumber(int input) {
-        return Integer.toString(input).matches("\\d+") && input > 0;
-    }
-
-    public static boolean isString(String input) {
-        return !input.isEmpty() && input.matches("[\\d+a-zA-Z]+");
-    }
-
-    private boolean isDouble(double input) {
-        return Double.toString(input).matches("\\d+\\.\\d+");
+        return result.getValue();
     }
 
     public void close() {
         scanner.close();
     }
+
 }
